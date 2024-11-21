@@ -50,7 +50,7 @@ export const MultiStepForm = () => {
               onClick={() => setFormStep(formStep - 1)}
             >Back</button>
           )}
-          {formStep < steps.length - 1? (
+          {formStep < steps.length ? (
             <button 
               type="button"
               className={`button-primary button-next ${formStep <= 0? 'ml-auto': ''} ${
