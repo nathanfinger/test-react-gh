@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename='react-gh'>
+    <BrowserRouter basename='/react-gh/'>
       <App />
     </BrowserRouter>
   </StrictMode>,
